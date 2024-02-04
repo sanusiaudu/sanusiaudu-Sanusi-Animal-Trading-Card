@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.face{
+    background: url(./img/snow\ leopard\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1rem solid rgb(138,140,14);
+    height: 95vh;
+    width: 40vw;
+}
+.logo{
+    width: 5rem;
+    margin: 1.5rem;
+}
+header{
+    margin-top: 25rem;
+    height: 8rem;
+    width: 90%;
+    height: 5rem;
+    transform: skew(20deg);
+    background: rgb(138,140,14);
+}
+main{
+    border: 1rem solid rgb(138,140,14);
+    background: url(./img/pattern-randomized.svg);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 40vw;
+    padding: 1rem;
+}
+h2{
+    margin: 0.5rem;
+}
+.leoimage{
+    width: 95%;
+    height: 38vh;
+    border: 0.4rem solid rgb(138,140,14);
+    box-shadow: -0.2rem 0.2rem 8px rgb(138,140,14);
+}
+.about{
+    width: 95%;
+}
+p{
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+span{
+    font-weight: 300;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.web{
+    color: rgb(138,140,14);
+    margin-top: 2rem;
+}
